@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Magic Ball of Indecision — Магический Шар Неуверенности",
+  "short_name": "Magic Ball",
+  "version": "1.0.0",
+  "description": "Карманный оракул для тревожных и нерешительных. Задай вопрос — получи ответ, в котором виноват не ты.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Спросить Шар"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

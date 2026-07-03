@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Магический Шар Неуверенности</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="nebula" aria-hidden="true"></div>
+
+  <main class="app">
+    <header class="header">
+      <h1 class="title">Магический Шар<span class="title-accent">Неуверенности</span></h1>
+      <p class="subtitle">аутсорсинг ответственности с 2026 года</p>
+    </header>
+
+    <section class="ball-stage">
+      <div class="ball" id="ball">
+        <div class="ball-glare" aria-hidden="true"></div>
+        <div class="ball-window">
+          <div class="window-glow" aria-hidden="true"></div>
+          <span class="answer idle-dot" id="answer" role="status" aria-live="polite">?</span>
+        </div>
+      </div>
+      <div class="ball-shadow" aria-hidden="true"></div>
+    </section>
+
+    <section class="controls">
+      <div class="input-wrap" id="inputWrap">
+        <textarea
+          id="question"
+          class="question"
+          rows="2"
+          maxlength="200"
+          placeholder="Введи свое сомнение здесь..."
+          spellcheck="false"></textarea>
+      </div>
+      <button id="askBtn" class="ask-btn" type="button">
+        <span class="ask-btn-text">Спросить Шар</span>
+      </button>
+    </section>
+  </main>
+
+  <script src="answers.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
